@@ -9,7 +9,7 @@ Client connects (only for TCP) to server and sends ASCII request “What is the 
 Server responds with the current date and time in the format  “Current Date and Time – 09/29/2019 09:00:01”
 Client closes connection (only for TCP), server stays running listening for next connection
 
-#Detailed Requirements
+# Detailed Requirements
 
 Server
 
