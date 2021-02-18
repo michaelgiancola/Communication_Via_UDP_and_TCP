@@ -13,14 +13,14 @@ Client closes connection (only for TCP), server stays running listening for next
 
 ## Server
 
-Only required to handle one client interaction at a time
-Can listen on any port you choose
-Must respond to invalid requests with an error message
-Valid request is “What is the current date and time?”
-Response to valid request must be in the format:
+* Only required to handle one client interaction at a time
+* Can listen on any port you choose
+* Must respond to invalid requests with an error message
+* Valid request is “What is the current date and time?”
+* Response to valid request must be in the format:
 “Current Date and Time – MM/DD/YYYY hh:mm:ss”
 
 ## Client
 
-Allows user to enter text commands to be sent to the server
-Displays response back from server
+* Allows user to enter text commands to be sent to the server
+* Displays response back from server
