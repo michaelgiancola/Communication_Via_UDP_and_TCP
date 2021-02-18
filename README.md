@@ -4,10 +4,10 @@ Created a networked date/time server and a client to access the server using bot
 
 The basic interaction between the client and server should be as follows:
 
-Server listens for incoming client requests.
-Client connects (only for TCP) to server and sends ASCII request “What is the current date and time?”
-Server responds with the current date and time in the format  “Current Date and Time – 09/29/2019 09:00:01”
-Client closes connection (only for TCP), server stays running listening for next connection.
+* Server listens for incoming client requests.
+* Client connects (only for TCP) to server and sends ASCII request “What is the current date and time?”
+* Server responds with the current date and time in the format  “Current Date and Time – 09/29/2019 09:00:01”
+* Client closes connection (only for TCP), server stays running listening for next connection.
 
 # Detailed Requirements
 
