@@ -7,11 +7,11 @@ The basic interaction between the client and server should be as follows:
 Server listens for incoming client requests.
 Client connects (only for TCP) to server and sends ASCII request “What is the current date and time?”
 Server responds with the current date and time in the format  “Current Date and Time – 09/29/2019 09:00:01”
-Client closes connection (only for TCP), server stays running listening for next connection
+Client closes connection (only for TCP), server stays running listening for next connection.
 
 # Detailed Requirements
 
-Server
+## Server
 
 Only required to handle one client interaction at a time
 Can listen on any port you choose
@@ -20,7 +20,7 @@ Valid request is “What is the current date and time?”
 Response to valid request must be in the format:
 “Current Date and Time – MM/DD/YYYY hh:mm:ss”
 
-Client
+## Client
 
 Allows user to enter text commands to be sent to the server
 Displays response back from server
